@@ -1,0 +1,1400 @@
+.charsheet ﻿.charsheet {
+    background: white;
+    min-height: 100%;
+}
+
+.charsheet .sheet-col {
+    padding: 1px;
+}
+
+.charsheet .sheet-col-att {
+    width: 30px ;
+    text-align: center ;
+    padding: 5px ;
+    font-weight: bold ;
+    Font-family: monospace, sans-serif ;
+    font-size: 1.1em ;
+}
+
+.charsheet .sheet-col-datt {
+    width: 30px ;
+    color: darkred ;
+    text-align: center ;
+    padding: 5px ;
+    font-weight: bold ;
+    Font-family: monospace, sans-serif ;
+    font-size: 1.1em ;
+}
+
+.charsheet .sheet-col-cha {
+    text-align: left ;
+    padding: 5px ;
+    font-weight: bold ;
+    Font-family: sans-serif ;
+    font-size: 1.1em ;
+}
+
+.charsheet .sheet-4colrow1 {
+    background-color: rgb(190, 190, 190);
+    margin: 1px;
+    height: 30px;
+    padding: 1px 1px 0px -1px;
+}
+
+.charsheet .sheet-altrow {
+    background-color: rgb(190, 190, 190);
+    height: 30px;
+    margin: 1px;
+    padding: 1px 1px 0px -1px;
+}
+
+.charsheet .sheet-4colrow {
+    margin: 1px;
+    height: 30px;
+    padding: 1px 1px 0px -1px;
+    background-color: rgb(235, 235, 235);
+}
+
+.charsheet .sheet-2colrow1 {
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    border: 0px;
+}
+
+
+.charsheet .sheet-col-inf {
+    width: 60px ;
+    text-align: right ;
+    padding: 5px 0px 0px 2px;
+    display: inline;
+    font-weight: bold ;
+    Font-family: sans-serif;
+    font-size: 1em ;
+}
+
+.charsheet .sheet-col-it {
+    text-align: center ;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    display: inline;
+}
+
+.charsheet .sheet-57 {
+    width: 65px;
+    margin: 1px 0px 0px 0px;
+    font-weight: bold;
+    Font-family: sans-serif;
+    font-size: 0.9em ;
+}
+
+.charsheet .sheet-53 {
+    width: 53px;
+    margin: 0px 0px 0px 0px;
+    font-weight: bold;
+    Font-family: sans-serif;
+    font-size: 0.9em ;
+}
+
+.charsheet .sheet-82 {
+    width:102px;
+    margin: 1px 0px 0px 0px;
+    font-weight: bold;
+    Font-family: sans-serif;
+    font-size: 0.9em ;
+}
+
+
+.charsheet .sheet-col-def {
+    height: 30px;
+    text-align: right ;
+    padding: 5px 0px 0px 10px;
+    font-weight: bold ;
+    Font-family: monospace, sans-serif ;
+    font-size: 0.9em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+
+
+
+.charsheet .sheet-select {
+    padding: 0px;
+}
+
+.charsheet .sheet-col-wv {
+    height: 30px;
+    text-align: left ;
+    padding: 5px;
+    font-weight: bold ;
+    Font-family: monospace, sans-serif;
+    font-size: 1em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+
+.charsheet .sheet-col-wv3 {
+    width: 100px ;
+    height: 30px;
+    text-align: justify ;
+    padding: 5px;
+    font-weight: bold ;
+    Font-family: monospace, ;
+    font-size: 0.8em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+
+.charsheet .sheet-col-wMv {
+    width: 115px ;
+    height: 30px;
+    text-align: justify ;
+    padding: 5px 4px 5px 5px;
+    font-weight: bold ;
+    Font-family: monospace, ;
+    font-size: 0.85em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+
+.charsheet .sheet-col-wRv {
+    width: 115px ;
+    height: 30px;
+    text-align: justify ;
+    padding: 5px 0px 5px 4px;
+    font-weight: bold ;
+    Font-family: monospace, ;
+    font-size: 0.85em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+
+.charsheet .sheet-col-wMvA {
+    width: 100px ;
+    height: 30px;
+    text-align: justify ;
+    padding: 5px 6px 5px 5px;
+    font-weight: bold ;
+    Font-family: monospace, ;
+    font-size: 0.85em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+
+.charsheet .sheet-col-wMvB {
+    padding: 1px;
+    width: 22px;
+    margin-right: -5px;
+    margin-left: 2px;
+    display: inline;
+    position: relative;
+    top: 3px;
+}
+
+.charsheet .sheet-acc-bonus {
+    padding-left: 0px;
+    padding-top: 3px;
+    padding-right: 0px;
+    letter-spacing: -1px;
+    background-color: transparent;
+    border: none; font-size: 1.1em;
+    font-family: monospace, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 12px !important;
+}
+
+.charsheet .sheet-col-wMvD {
+    width: 115px ;
+    height: 30px;
+    text-align: justify ;
+    padding: 5px 2px 5px 0px;
+    font-weight: bold ;
+    Font-family: monospace, ;
+    font-size: 0.85em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.charsheet .sheet-col-wRvA {
+    width: 86px ;
+    height: 30px;
+    text-align: left ;
+    padding: 5px 3px 5px 0px;
+    font-weight: bold ;
+    Font-family: monospace, ;
+    font-size: 0.85em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+
+.charsheet .sheet-col-wRvB {
+    padding: 1px;
+    width: 22px;
+    margin-right: -5px;
+    margin-left: -4px;
+    display: inline;
+    position: relative;
+    top: 3px;
+}
+
+.charsheet .sheet-col-wRvD {
+    height: 30px;
+    text-align: left ;
+    padding: 5px 1px 5px 4px;
+    font-weight: bold ;
+    Font-family: monospace, ;
+    font-size: 0.85em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+
+.charsheet .sheet-4colrowwdesc {
+    margin: 1px;
+    padding: 1px 1px 0px -1px;
+    background-color: rgb(235, 235, 235);
+    height: 100px;
+}
+
+.charsheet textarea {
+    height: 65px;
+    width: 455px;
+    margin: 1px;
+    font-family: sans-serif;
+}
+
+.charsheet .sheet-col-ma {
+    height: 30px;
+    text-align: left ;
+    padding: 5px;
+    font-weight: bold ;
+    Font-family: monospace, sans-serif ;
+    font-size: 0.9em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+    width: 90px;
+}
+
+.charsheet .sheet-col1-ba {
+    height: 30px;
+    text-align: justify ;
+    padding: 5px;
+    font-weight: bold ;
+    Font-family: monospace, ;
+    font-size: 0.8em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+    width: 60px;
+}
+.charsheet .sheet-col2-ba {
+    height: 30px;
+    text-align: justify ;
+    padding: 5px;
+    font-weight: bold ;
+    Font-family: monospace, ;
+    font-size: 0.8em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+    width: 50px;
+    position: relative;
+    left: 0px;
+}
+.charsheet .sheet-col3-ba {
+    height: 30px;
+    text-align: justify ;
+    padding: 5px;
+    font-weight: bold ;
+    Font-family: monospace, ;
+    font-size: 0.8em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+    width: 70px;
+    border-left: 1px solid gray;
+}
+.charsheet .sheet-col4-ba {
+    height: 30px;
+    text-align: justify ;
+    padding: 5px;
+    font-weight: bold ;
+    Font-family: monospace, ;
+    font-size: 0.8em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+    left: 7px;
+    width: 115px;
+}
+
+.charsheet .sheet-col-af {
+    height: 30px;
+    padding: 5px;
+    font-weight: bold ;
+    Font-family: monospace, ;
+    font-size: 0.8em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+    width: 90px;
+    margin-right: -8px;
+    text-align: justify ;
+}
+
+.charsheet .sheet-col-afb {
+    padding: 1px;
+    width: 22px;
+    margin-right: -5px;
+    margin-left: -4px;
+    display: inline;
+}
+
+
+
+.charsheet .sheet-col-sem {
+    height: 30px;
+    text-align: left ;
+    padding: 5px;
+    font-weight: bold ;
+    Font-family: monospace, sans-serif;
+    font-size: 1em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+
+.charsheet .sheet-col-sem-desc {
+    height: 30px;
+    text-align: left ;
+    padding: 5px;
+    font-weight: bold ;
+    Font-family: monospace, sans-serif;
+    font-size: 1em ;
+    display: inline;
+    position: relative;
+    top: 5px;
+    width: 358px;
+}
+
+
+
+.charsheet input[type=number]::-webkit-inner-spin-button,.charsheet input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+
+}
+
+.charsheet input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.charsheet input[type=number].sheet-roc::-webkit-inner-spin-button,.charsheet input[type=number].sheet-roc::-webkit-outer-spin-button {
+    -webkit-appearance: enable;
+    position: relative;
+    right: -1px;
+    width: 0.8em;
+    z-index: 5;
+    opacity: 0.5;
+    background: url('https://imgsrv.roll20.net//?src=https%3A%2F%2Fgithub.com%2FRoll20%2Froll20-character-sheets%2Fblob%2Fmaster%2FRWBY_RoC-Unofficial_Tabletop_RPG%2Fwebkit.jpg%3Fraw%3Dtrue') center center;
+
+}
+.charsheet input[type="number"].sheet-roc::-webkit-inner-spin-button:hover,.charsheet input[type="number"].sheet-roc::-webkit-inner-spin-button:active{
+    box-shadow: 0 0 2px #0CF;
+    opacity: 1;
+}
+
+.charsheet input[type=number].sheet-roc {
+    -moz-appearance: textfield;
+
+}
+
+
+
+.charsheet .sheet-row input {
+    height: 20px;
+    padding: 0px;
+    margin-top: -2px;
+    padding: 0 2px;
+    line-height: 22px;
+
+    background: #FFFFFF;
+    border: solid black 1px #000000;
+    box-shadow: none;
+    cursor: initial;
+}
+
+.charsheet .sheet-box input[type="checkbox"] {
+    opacity: 0;
+    width: 30px;
+    height: 22px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.charsheet .sheet-popup {
+    width: 30px ;
+    text-align: center ;
+    padding: 5px 2px 5px 2px;
+    font-weight: bold ;
+    Font-family: monospace, ;
+    font-size: 0.9em ;
+}
+
+.charsheet .sheet-popup + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+
+.charsheet .sheet-popup:hover + .sheet-tooltip {
+    width: auto;
+    display: inline;
+    position: absolute;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+.charsheet .sheet-popup + .sheet-tooltip {
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-box-shadow: 3px #CCC;
+    -webkit-box-shadow: 3px #CCC;
+    box-shadow: 3px #CCC;
+}
+
+.charsheet .sheet-popupdatt {
+    width: 30px ;
+    color: DarkRed ;
+    text-align: center ;
+    padding: 5px ;
+    font-weight: bold ;
+    Font-family: monospace, sans-serif ;
+    font-size: 1.1em ;
+}
+
+.charsheet .sheet-popupdatt + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+
+.charsheet .sheet-popupdatt:hover + .sheet-tooltip {
+    width: auto;
+    display: inline;
+    position: absolute;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+.charsheet .sheet-popupdatt + .sheet-tooltip {
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-box-shadow: 3px #CCC;
+    -webkit-box-shadow: 3px #CCC;
+    box-shadow: 3px #CCC;
+}
+
+
+.charsheet .sheet-popup-def {
+    width: 30px ;
+    text-align: center ;
+    padding: 2px ;
+    font-weight: bold ;
+    Font-family: monospace, ;
+    font-size: 0.9em ;
+}
+
+.charsheet .sheet-popup-def + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+
+.charsheet .sheet-popup-def:hover + .sheet-tooltip {
+    width: auto;
+    display: inline;
+    position: absolute;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+.charsheet .sheet-popup-def + .sheet-tooltip {
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-box-shadow: 3px #CCC;
+    -webkit-box-shadow: 3px #CCC;
+    box-shadow: 3px #CCC;
+}
+
+
+.charsheet .sheet-popup-semblance {
+    width: 25px ;
+    text-align: center ;
+    padding: 0px ;
+    font-weight: bold ;
+    Font-family: monospace, sans-serif ;
+    font-size: 1.1em ;
+}
+
+.charsheet .sheet-popup-semblance + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+    position: relative;
+    right: 7px;
+}
+
+.charsheet .sheet-popup-semblance:hover + .sheet-tooltip {
+    width: auto;
+    display: inline;
+    position: absolute;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+.charsheet .sheet-popup-semblance + .sheet-tooltip {
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-box-shadow: 3px #CCC;
+    -webkit-box-shadow: 3px #CCC;
+    box-shadow: 3px #CCC;
+}
+
+
+.charsheet .sheet-popup-skill {
+    width: 30px ;
+    text-align: center ;
+    padding: 5px 2px 5px 2px;
+    font-weight: bold ;
+    Font-family: sans-serif;
+    font-size: 0.85em;
+    display: inline;
+}
+.charsheet .sheet-popup-skill-stat {
+    width: 80px ;
+    text-align: center ;
+    padding: 5px 2px 5px 2px;
+    font-weight: bold ;
+    Font-family: monospace;
+    font-size: 0.85em;
+    display: inline;
+}
+
+.charsheet .sheet-popup-skill + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+
+.charsheet .sheet-popup-skill:hover + .sheet-tooltip {
+    width: auto;
+    display: inline;
+    position: absolute;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+.charsheet .sheet-popup-skill + .sheet-tooltip {
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-box-shadow: 3px #CCC;
+    -webkit-box-shadow: 3px #CCC;
+    box-shadow: 3px #CCC;
+}
+
+
+.charsheet .sheet-defense + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-defense:hover + .sheet-tooltip {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -60px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+
+.charsheet .sheet-col-wv3 + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-col-wv3:hover + .sheet-tooltip {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -90px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+
+.charsheet .sheet-col-wMv + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-col-wMv:hover + .sheet-tooltip {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -90px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+
+.charsheet .sheet-col-wMvD + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-col-wMvD:hover + .sheet-tooltip {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -90px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+
+.charsheet .sheet-col-wRv + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-col-wRv:hover + .sheet-tooltip {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -90px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+
+.charsheet .sheet-col-wRvA + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-col-wRvA:hover + .sheet-tooltip {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -90px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+
+.charsheet .sheet-col-wRvD + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-col-wRvD:hover + .sheet-tooltip {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -90px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+
+.charsheet .sheet-col- + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-col-:hover + .sheet-tooltip {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -50px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+
+.charsheet .sheet-col-ma + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-col-ma:hover + .sheet-tooltip {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -110px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+
+.charsheet .sheet-col1-ba + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-col1-ba:hover + .sheet-tooltip {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -95px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+.charsheet .sheet-col2-ba + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-col2-ba:hover + .sheet-tooltip {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -50px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+.charsheet .sheet-col3-ba + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-col3-ba:hover + .sheet-tooltip {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -95px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+
+.charsheet .sheet-col-af + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-col-af:hover + .sheet-tooltip {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -50px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+.charsheet .sheet-col-afb + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-col-afb:hover + .sheet-tooltip {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -250px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+}
+
+
+.charsheet .sheet-semblance + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-semblance:hover + .sheet-tooltip {
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -69px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    font-weight: none;
+    font-size: 1em;
+}
+.charsheet .sheet-col-wv + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-col-wv:hover + .sheet-tooltip {
+    z-index: 10;
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -280px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    font-weight: none;
+    font-size: 1em;
+}
+
+
+.charsheet .sheet-dust {
+    font-family: monospace, sans-serif;
+    font-size: 1.1em;
+}
+.charsheet .sheet-dust + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-dust:hover + .sheet-tooltip {
+    width: auto;
+    z-index: 5;
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -50px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    font-weight: none;
+    font-size: 1em;
+}
+.charsheet .sheet-phial + .sheet-tooltip {
+    z-index: 10;
+    display: none;
+    padding: 4px;
+    text-align: left;
+    margin-left: 0px;
+    font-weight: normal;
+    text-transform: initial;
+    font-variant: initial;
+}
+.charsheet .sheet-phial:hover + .sheet-tooltip {
+    z-index: 10;
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: -220px;
+    margin-left: -110px;
+    color: #111;
+    border: 1px solid gray;
+    background: #ffffff;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    font-weight: none;
+    font-size: 1em;
+}
+
+
+
+.charsheet input[type="checkbox"].sheet-arrow
+{
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.charsheet input[type="checkbox"].sheet-arrow + span::before
+{
+    margin-left: -18px;
+    margin-right: 5px;
+    line-height: 14px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+
+    content: "▼";
+    opacity: 0.85;
+    width: 14px;
+    height: 14px;
+    font-size: 11px;
+}
+.charsheet input[type="checkbox"].sheet-arrow:checked + span::before
+{
+    content: "►";
+}
+
+.charsheet input.sheet-arrow::before
+{
+    float: left;
+}
+
+.charsheet input.sheet-arrow ~ div.sheet-additionnal
+{
+    display: none;
+}
+
+.charsheet input.sheet-arrow:checked ~ div.sheet-additionnal
+{
+    display: block;
+}
+
+
+
+
+
+.charsheet input[type="checkbox"].sheet-arrow2
+{
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.charsheet input[type="checkbox"].sheet-arrow2 + span::before
+{
+    margin-left: -18px;
+    margin-right: 5px;
+    line-height: 14px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+
+    content: "▼";
+    opacity: 0.85;
+    width: 14px;
+    height: 14px;
+    font-size: 11px;
+}
+.charsheet input[type="checkbox"].sheet-arrow2:checked + span::before
+{
+    content: "►";
+}
+
+.charsheet input.sheet-arrow2::before
+{
+    float: left;
+}
+
+.charsheet input.sheet-arrow2 ~ div.sheet-unarmed
+{
+    display: none;
+}
+
+.charsheet input.sheet-arrow2:checked ~ div.sheet-unarmed
+{
+    display: block;
+}
+
+
+
+
+
+.charsheet input[type="checkbox"].sheet-arrow3
+{
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.charsheet input[type="checkbox"].sheet-arrow3 + span::before
+{
+    margin-left: -18px;
+    margin-right: 5px;
+    line-height: 14px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+
+    content: "▼";
+    opacity: 0.85;
+    width: 14px;
+    height: 14px;
+    font-size: 11px;
+}
+.charsheet input[type="checkbox"].sheet-arrow3:checked + span::before
+{
+    content: "►";
+}
+
+.charsheet input.sheet-arrow3::before
+{
+    float: left;
+}
+
+.charsheet input.sheet-arrow3 ~ div.sheet-alternate
+{
+    display: none;
+}
+
+.charsheet input.sheet-arrow3:checked ~ div.sheet-alternate
+{
+    display: block;
+}
+
+
+
+.charsheet input[type="checkbox"].sheet-arrowmod
+{
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.charsheet input[type="checkbox"].sheet-arrowmod + span::before
+{
+    margin-left: -15px;
+    margin-right: 5px;
+    line-height: 14px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+
+    content: "▼";
+    opacity: 0.85;
+    width: 14px;
+    height: 14px;
+    font-size: 11px;
+}
+.charsheet input[type="checkbox"].sheet-arrowmod:checked + span::before
+{
+    content: "►";
+}
+
+.charsheet input.sheet-arrowmod::before
+{
+    float: left;
+}
+
+.charsheet input.sheet-arrowmod ~ div.sheet-moddescfield
+{
+    display: none;
+}
+
+.charsheet input.sheet-arrowmod:checked ~ div.sheet-moddescfield
+{
+    display: block;
+}
+.charsheet input.sheet-arrowmod:checked ~ input.sheet-modnamefield
+{
+    width: 85%;
+}
+
+.charsheet input.sheet-arrowmod ~ input.sheet-modnamefield
+{
+    width: 42%;
+}
+.charsheet input.sheet-arrowmod:checked ~ input.sheet-modrapiddesc
+{
+    display: none;
+}
+
+.charsheet input.sheet-arrowmod ~ input.sheet-modrapiddesc
+{
+    display: inline;
+}
+
+
+
+.charsheet input[type="checkbox"].sheet-arrowmod
+{
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.charsheet input[type="checkbox"].sheet-arrowmod + span::before
+{
+    margin-left: -15px;
+    margin-right: 5px;
+    line-height: 14px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+
+    content: "▼";
+    opacity: 0.85;
+    width: 14px;
+    height: 14px;
+    font-size: 11px;
+}
+.charsheet input[type="checkbox"].sheet-arrowmod:checked + span::before
+{
+    content: "►";
+}
+
+.charsheet input.sheet-arrowmod::before
+{
+    float: left;
+}
+
+.charsheet input.sheet-arrowmod ~ div.sheet-phialfield
+{
+    display: none;
+}
+
+.charsheet input.sheet-arrowmod:checked ~ div.sheet-phialfield
+{
+    display: block;
+}
+.charsheet input.sheet-arrowmod ~ div.sheet-phialquick
+{
+    display: block;
+}
+
+.charsheet input.sheet-arrowmod:checked ~ div.sheet-phialquick
+{
+    display: none;
+}
+
+
+
+
+.charsheet input.sheet-arrowmod ~ div.sheet-skilllist
+{
+    display: none;
+}
+
+.charsheet input.sheet-arrowmod:checked ~ div.sheet-skilllist
+{
+    display: block;
+}
+
+
+
+.charsheet input[type="checkbox"].sheet-arrow4
+{
+    opacity: 0;
+    width: 20px;
+    height: 9px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.charsheet input[type="checkbox"].sheet-arrow4 + span::before
+{
+    margin-left: -18px;
+    margin-right: 5px;
+    line-height: 9px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+
+    content: "▼";
+    opacity: 0.65;
+    width: 14px;
+    height: 9px;
+    font-size: 7px;
+}
+.charsheet input[type="checkbox"].sheet-arrow4:checked + span::before
+{
+    content: "►";
+}
+
+.charsheet input.sheet-arrow4::before
+{
+    float: left;
+}
+
+.charsheet input.sheet-arrow4 ~ div.sheet-version
+{
+    display: none;
+}
+
+.charsheet input.sheet-arrow4:checked ~ div.sheet-version
+{
+    display: block;
+}
