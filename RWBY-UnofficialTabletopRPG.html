@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="https://raw.githubusercontent.com/S0raga54/RWBY_RoC-Unofficial_Tabletop_RPG/main/style/charsheet.css">
 <link rel="stylesheet" href="https://raw.githubusercontent.com/S0raga54/RWBY_RoC-Unofficial_Tabletop_RPG/main/style/style.css">
 
-<div class='sheet-4colrow' align="left" style='margin-bottom:-5px;'>
+<div class='sheet-4colrow' align="left" style='margin-bottom:-5px; width: 845px;'>
     <div class='sheet-col'>
         <div class='sheet-col-cha' style=" display: inline; position: relative; top: 5px;">
             Name :
@@ -22,7 +22,7 @@
     </div>
 </div>
 <div style=" display: inline; font-size: 0.6em; opacity:0.8;"><span style="font-family: Pictos;"> </span> Version notes </div>
-<input type="checkbox" class="arrow4" style="position: relative; top: 0px; left: -15px;" name="attr_versionnotes" checked="true" /><span style="position: relative; top: 2px; left: -5px;"></span>
+<input type="checkbox" class="sheet-arrow4" style="position: relative; top: 0px; left: -15px;" name="attr_versionnotes" checked="true" /><span style="position: relative; top: 2px; left: -5px;"></span>
 <div class="sheet-version">
     <div class='sheet-4colrow1'style=" padding: 3px; padding-left: 1px; padding-right: 1px; height: 203px; width: 846px; margin-left: -3px; margin-bottom: 10px;" align="left">
         <table style="display: inline; margin-left: 4px; padding-right: 0px; margin-right: 0px;">
@@ -595,7 +595,7 @@
                     </div>
                 </div>
             </div>
-            <div class="sheet-col" style="margin: 3px 0px 0px 1px; border: 1px solid darkgrey; width: 478px; height: 220px; overflow: auto; text-align: left; background-color: rgb(235, 235, 235);"><legend><strong>Weapon</strong></legend>
+            <div class="sheet-col" style="margin: 3px 0px 0px 1px; border: 1px solid darkgrey; width: 478px; /*height: 220px;*/ overflow: auto; overflow-x: hidden; text-align: left; background-color: rgb(235, 235, 235);"><legend><strong>Weapon</strong></legend>
                 <div class='sheet-4colrow1'>
                     <div class='sheet-col-wv'>
                         Name:
@@ -711,22 +711,22 @@
                         <button type="roll" value="/me deals [[(1d6+(@{RoC}d6))+@{rngdmgmod}+@{modquery}]] damage (ranged)" name="roll_rngdmg" />
                     </div>
                 </div>
-                <div class='sheet-4colrowwdesc'>
+                <div class='sheet-4colrowwdesc' style="height: auto; margin-bottom: 10px;">
                     <div class='sheet-col-wv'>
                         Description:<br>
-                        <textarea style=" background: #FFF; border-radius: 2px; color: gray" name="attr_weapondesc" /></textarea>
+                        <textarea style=" background: #FFF; border-radius: 2px; color: gray; resize: vertical; width: 440px; min-height: 65px; height: fit-content;" name="attr_weapondesc" /></textarea>
                     </div>
                 </div>
             </div>
 
-            <div class="sheet-col" style="margin: -2px 0px 3px 1px; padding-bottom: 5px; border: 1px solid darkgrey; width: 478px; overflow: hiden; text-align: left; background-color: rgb(235, 235, 235);">
+            <div class="sheet-col" style="margin: -2px 0px 3px 1px; padding-bottom: 5px; border: 1px solid darkgrey; width: 478px; overflow: hidden; text-align: left; background-color: rgb(235, 235, 235);">
                 <div style="position: relative; left: 0px; display: inline; font-size: 0.8em;">Bonus attacks mod</div>
-                <input type="checkbox" name="attr_bonbox" class="arrow" style="position: relative; top: 0px; left: 0px;" /><span></span>
+                <input type="checkbox" name="attr_bonbox" class="sheet-arrow" style="position: relative; top: 0px; left: 0px;" /><span></span>
                 <div style="display: inline; font-size: 0.8em;">Martial arts mod</div>
-                <input type="checkbox" name="attr_mabox" class="arrow2" style="position: relative; top: 0px; left: 0px;" /><span></span>
+                <input type="checkbox" name="attr_mabox" class="sheet-arrow2" style="position: relative; top: 0px; left: 0px;" /><span></span>
                 <div style="position: relative; left: 0px; display: inline; font-size: 0.8em;">Alternate forms mod</div>
-                <input type="checkbox" name="attr_afbox" class="arrow3" style="position: relative; top: 0px; left: 0px;" /><span></span>
-                <div class="additionnal"><legend><strong style="font-size: 0.85em;">Bonus Attacks</strong></legend>
+                <input type="checkbox" name="attr_afbox" class="sheet-arrow3" style="position: relative; top: 0px; left: 0px;" /><span></span>
+                <div class="sheet-additionnal"><legend><strong style="font-size: 0.85em;">Bonus Attacks</strong></legend>
                     <div class='sheet-4colrow1'>
                         <div class='sheet-col1-ba'>
                             Melee Attack
@@ -873,7 +873,7 @@
                 <fieldset class="repeating_mods">
                     <div class="4colrow1" style="margin: 2px; background-color: rgb(190, 190, 190); padding: 1px 1px 1px 0px; border-bottom: 1px solid black; height: auto;">
 
-                        <input type="checkbox" name="attr_moddescexpand" class="arrowmod" style="position: relative; top: 0px; left: 0px;" checked="true" /><span></span>
+                        <input type="checkbox" name="attr_moddescexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" checked="true" /><span></span>
                         <div style="font-family: monospace, sans-serif; font-weight: bold; font-size: 1.1em; text-align: right; display: inline;">Name</div>
                         <input class="modnamefield" style="display: inline;" type="text"  name="attr_modname"/>
                         <input class="modrapiddesc" type="text" style="width: 42%; background-color: rgb(242, 242, 242); color: gray;" placeholder="Quick description" name="attr_rapiddesc"/>
@@ -898,7 +898,7 @@
         </td>
         <td style="width: 358px;" valign="top" align="left">
             <div class="sheet-col" style="margin: 3px 0px 0px 3px; border: 1px solid darkgrey;  width: 357px; overflow: hidden; text-align: left; background-color: rgb(235, 235, 235);">
-                <input type="checkbox" name="attr_skillexpand" class="arrowmod" style="position: relative; top: 0px; left: 0px;" /><span></span>
+                <input type="checkbox" name="attr_skillexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" /><span></span>
                 <legend><strong class="sheet-semblance">Skill Check list</strong></legend>
                 <span class="sheet-tooltip">
 				        A list of exemple skill rolls.<br>
@@ -907,7 +907,7 @@
 				        Attribute Checkboxes have<br>
 				        no relation to these rolls.
                     </span>
-                <div class="skilllist" style="height: 280px;">
+                <div class="sheet-skilllist" style="height: 280px;">
                     <div class='sheet-4colrow1'>
                         <div class='sheet-col' style="width: 65px; text-align: center;">
                             <div class="sheet-popup" style="font-size: 1.1em; display: inline;">
@@ -959,7 +959,7 @@
                                 </div>
                             </div>
                             <div class='sheet-col'>
-                                <button type="roll" value="/me jumps @{ad-disad-query}+(@{RoC})d10cs11cf0)+@{strength}+@{agility}+@{modquery}]]" name="roll_skillroll_jump" />
+                                <button type="roll" value="/me jumps @{ad-disad-query}+(@{RoC})d10cs11cf0)+@{strength}+@{agility}+@{jumpmod}+@{modquery}]]" name="roll_skillroll_jump" />
                             </div>
                             <div class='sheet-col' style="width: 9px;">
 
@@ -1346,7 +1346,7 @@
 
                     <div style="border-bottom: 1px solid black; width:100%; padding:-1px 1px 0px 0px;  background-color: rgb(190, 190, 190); margin: 0px 0px 2px 0px; heght: auto;">
 
-                        <input type="checkbox" name="attr_phialexpand" class="arrowmod" style="position: relative; top: 0px; left: 0px;" checked="true" /><span></span>
+                        <input type="checkbox" name="attr_phialexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" checked="true" /><span></span>
                         <div "sheet-col-att" style="width: 50px; font-family: monospace, sans-serif; font-weight: bold; font-size: 1.1em; text-align: right; display: inline;">Color</div>
                     <div "sheet-col-att" style="width:187px; display: inline;"><input  style="width: 187px;display:inline;" type="text" name="attr_phiname"/></div>
             <select name="attr_phi" style="width: 54px;  display: inline; position: relative; top: 1px; margin-bottom: 2px; padding-left: -1px;">
@@ -1403,7 +1403,7 @@
         Based on ver. 20.7.25
     </div>
     <div style="position: relative; left: -105px; display: inline;"><span style="font-family: Pictos; font-size: 1.1em;">y</span> Show sheet options and permanent attribute modifiers</div>
-    <input type="checkbox" class="arrow" style="position: relative; top: 0px; left: -105px;" name="attr_menu" /><span style="position: relative; top: 0px; left: -105px;"></span>
+    <input type="checkbox" class="sheet-arrow" style="position: relative; top: 0px; left: -105px;" name="attr_menu" /><span style="position: relative; top: 0px; left: -105px;"></span>
     <div class="sheet-additionnal">
         <div class='sheet-4colrow1'style=" padding: 3px; padding-left: 1px; padding-right: 1px; height: 155px; width: 846px; margin-left: -3px;" align="left">
             <table style="display: inline;">
@@ -1434,6 +1434,12 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                        Jump
+                    </td>
+                    <td style="border-right: 1px solid gray;">
+                        <input type="number" style=" background: #FFF; width: 20px; height: 21px; border-radius: 2px; padding: 2px" name="attr_jumpmod" value="0"  />
+                    </td>
                     <td>
                         Health
                     </td>
