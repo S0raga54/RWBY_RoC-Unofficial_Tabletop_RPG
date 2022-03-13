@@ -3,11 +3,11 @@
     min-height: 100%;
 }
 
-.sheet-col {
+.col {
     padding: 1px;
 }
 
-.sheet-col-att {
+.col-att {
     width: 30px ;
     text-align: center ;
     padding: 5px ;
@@ -16,7 +16,7 @@
     font-size: 1.1em ;
 }
 
-.sheet-col-datt {
+.col-datt {
     width: 30px ;
     color: darkred ;
     text-align: center ;
@@ -26,7 +26,7 @@
     font-size: 1.1em ;
 }
 
-.sheet-col-cha {
+.col-cha {
     text-align: left ;
     padding: 5px ;
     font-weight: bold ;
@@ -34,35 +34,35 @@
     font-size: 1.1em ;
 }
 
-.sheet-4colrow1 {
+.4colrow1 {
     background-color: rgb(190, 190, 190);
     margin: 1px;
     height: 30px;
     padding: 1px 1px 0px -1px;
 }
 
-.sheet-altrow {
+.altrow {
     background-color: rgb(190, 190, 190);
     height: 30px;
     margin: 1px;
     padding: 1px 1px 0px -1px;
 }
 
-.sheet-4colrow {
+.4colrow {
     margin: 1px;
     height: 30px;
     padding: 1px 1px 0px -1px;
     background-color: rgb(235, 235, 235);
 }
 
-.sheet-2colrow1 {
+.2colrow1 {
     padding: 0px;
     margin: 0px 0px 0px 0px;
     border: 0px;
 }
 
 /* ===== Info =====*/
-.sheet-col-inf {
+.col-inf {
     width: 60px ;
     text-align: right ;
     padding: 5px 0px 0px 2px;
@@ -72,14 +72,14 @@
     font-size: 1em ;
 }
 
-.sheet-col-it {
+.col-it {
     text-align: center ;
     margin: 0px 0px 0px 0px;
     padding: 0px;
     display: inline;
 }
 
-.sheet-57 {
+.57 {
     width: 65px;
     margin: 1px 0px 0px 0px;
     font-weight: bold;
@@ -87,7 +87,7 @@
     font-size: 0.9em ;
 }
 
-.sheet-53 {
+.53 {
     width: 53px;
     margin: 0px 0px 0px 0px;
     font-weight: bold;
@@ -95,7 +95,7 @@
     font-size: 0.9em ;
 }
 
-.sheet-82 {
+.82 {
     width:102px;
     margin: 1px 0px 0px 0px;
     font-weight: bold;
@@ -104,7 +104,7 @@
 }
 
 /* ===== Defenses ===== */
-.sheet-col-def {
+.col-def {
     height: 30px;
     text-align: right ;
     padding: 5px 0px 0px 10px;
@@ -118,11 +118,11 @@
 
 /* ===== WEAPON ===== */
 
-.sheet-select {
+.select {
     padding: 0px;
 }
 
-.sheet-col-wv {
+.col-wv {
     height: 30px;
     text-align: left ;
     padding: 5px;
@@ -134,7 +134,7 @@
     top: 5px;
 }
 
-.sheet-col-wv3 {
+.col-wv3 {
     width: 100px ;
     height: 30px;
     text-align: justify ;
@@ -147,7 +147,7 @@
     top: 5px;
 }
 
-.sheet-col-wMv {
+.col-wMv {
     width: 115px ;
     height: 30px;
     text-align: justify ;
@@ -160,7 +160,7 @@
     top: 5px;
 }
 
-.sheet-col-wRv {
+.col-wRv {
     width: 115px ;
     height: 30px;
     text-align: justify ;
@@ -173,7 +173,7 @@
     top: 5px;
 }
 
-.sheet-col-wMvA {
+.col-wMvA {
     width: 100px ;
     height: 30px;
     text-align: justify ;
@@ -186,7 +186,7 @@
     top: 5px;
 }
 
-.sheet-col-wMvB {
+.col-wMvB {
     padding: 1px;
     width: 22px;
     margin-right: -5px;
@@ -196,7 +196,7 @@
     top: 3px;
 }
 
-.sheet-acc-bonus {
+.acc-bonus {
     padding-left: 0px;
     padding-top: 3px;
     padding-right: 0px;
@@ -209,7 +209,7 @@
     width: 12px !important;
 }
 
-.sheet-col-wMvD {
+.col-wMvD {
     width: 115px ;
     height: 30px;
     text-align: justify ;
@@ -223,7 +223,7 @@
     left: 5px;
 }
 
-.sheet-col-wRvA {
+.col-wRvA {
     width: 86px ;
     height: 30px;
     text-align: left ;
@@ -236,7 +236,7 @@
     top: 5px;
 }
 
-.sheet-col-wRvB {
+.col-wRvB {
     padding: 1px;
     width: 22px;
     margin-right: -5px;
@@ -246,7 +246,7 @@
     top: 3px;
 }
 
-.sheet-col-wRvD {
+.col-wRvD {
     height: 30px;
     text-align: left ;
     padding: 5px 1px 5px 4px;
@@ -258,7 +258,7 @@
     top: 5px;
 }
 
-.sheet-4colrowwdesc {
+.4colrowwdesc {
     margin: 1px;
     padding: 1px 1px 0px -1px;
     background-color: rgb(235, 235, 235);
@@ -272,7 +272,7 @@ textarea {
     font-family: sans-serif;
 }
 
-.sheet-col-ma {
+.col-ma {
     height: 30px;
     text-align: left ;
     padding: 5px;
@@ -285,7 +285,7 @@ textarea {
     width: 90px;
 }
 
-.sheet-col1-ba {
+.col1-ba {
     height: 30px;
     text-align: justify ;
     padding: 5px;
@@ -297,7 +297,7 @@ textarea {
     top: 5px;
     width: 60px;
 }
-.sheet-col2-ba {
+.col2-ba {
     height: 30px;
     text-align: justify ;
     padding: 5px;
@@ -311,7 +311,7 @@ textarea {
     position: relative;
     left: 0px;
 }
-.sheet-col3-ba {
+.col3-ba {
     height: 30px;
     text-align: justify ;
     padding: 5px;
@@ -324,7 +324,7 @@ textarea {
     width: 70px;
     border-left: 1px solid gray;
 }
-.sheet-col4-ba {
+.col4-ba {
     height: 30px;
     text-align: justify ;
     padding: 5px;
@@ -338,7 +338,7 @@ textarea {
     width: 115px;
 }
 
-.sheet-col-af {
+.col-af {
     height: 30px;
     padding: 5px;
     font-weight: bold ;
@@ -352,7 +352,7 @@ textarea {
     text-align: justify ;
 }
 
-.sheet-col-afb {
+.col-afb {
     padding: 1px;
     width: 22px;
     margin-right: -5px;
@@ -362,7 +362,7 @@ textarea {
 
 /* ===== Semblance ===== */
 
-.sheet-col-sem {
+.col-sem {
     height: 30px;
     text-align: left ;
     padding: 5px;
@@ -374,7 +374,7 @@ textarea {
     top: 5px;
 }
 
-.sheet-col-sem-desc {
+.col-sem-desc {
     height: 30px;
     text-align: left ;
     padding: 5px;
@@ -399,8 +399,8 @@ input[type=number] {
     -moz-appearance: textfield;
 }
 
-input[type=number].sheet-roc::-webkit-inner-spin-button,
-input[type=number].sheet-roc::-webkit-outer-spin-button {
+input[type=number].roc::-webkit-inner-spin-button,
+input[type=number].roc::-webkit-outer-spin-button {
     -webkit-appearance: enable;
     position: relative;
     right: -1px;
@@ -410,20 +410,20 @@ input[type=number].sheet-roc::-webkit-outer-spin-button {
     background: url('https://github.com/Roll20/roll20-character-sheets/blob/master/RWBY_RoC-Unofficial_Tabletop_RPG/webkit.jpg?raw=true') center center;
 
 }
-input[type="number"].sheet-roc::-webkit-inner-spin-button:hover,
-input[type="number"].sheet-roc::-webkit-inner-spin-button:active{
+input[type="number"].roc::-webkit-inner-spin-button:hover,
+input[type="number"].roc::-webkit-inner-spin-button:active{
     box-shadow: 0 0 2px #0CF;
     opacity: 1;
 }
 
-input[type=number].sheet-roc {
+input[type=number].roc {
     -moz-appearance: textfield;
 
 }
 
 
 
-.sheet-row input {
+.row input {
     height: 20px;
     padding: 0px;
     margin-top: -2px;
@@ -436,7 +436,7 @@ input[type=number].sheet-roc {
     cursor: initial;
 }
 
-.sheet-box input[type="checkbox"] {
+.box input[type="checkbox"] {
     opacity: 0;
     width: 30px;
     height: 22px;
@@ -445,7 +445,7 @@ input[type=number].sheet-roc {
 }
 
 /* ===== CSS TOOLTIP ===== */
-.sheet-popup {
+.popup {
     width: 30px ;
     text-align: center ;
     padding: 5px 2px 5px 2px;
@@ -454,7 +454,7 @@ input[type=number].sheet-roc {
     font-size: 0.9em ;
 }
 
-.sheet-popup + .sheet-tooltip {
+.popup + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -465,7 +465,7 @@ input[type=number].sheet-roc {
     font-variant: initial;
 }
 
-.sheet-popup:hover + .sheet-tooltip {
+.popup:hover + .tooltip {
     width: auto;
     display: inline;
     position: absolute;
@@ -475,7 +475,7 @@ input[type=number].sheet-roc {
     line-height: 1.5em;
 }
 
-.sheet-popup + .sheet-tooltip {
+.popup + .tooltip {
     border-radius: 1px;
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
@@ -484,7 +484,7 @@ input[type=number].sheet-roc {
     box-shadow: 3px #CCC;
 }
 
-.sheet-popupdatt {
+.popupdatt {
     width: 30px ;
     color: DarkRed ;
     text-align: center ;
@@ -494,7 +494,7 @@ input[type=number].sheet-roc {
     font-size: 1.1em ;
 }
 
-.sheet-popupdatt + .sheet-tooltip {
+.popupdatt + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -505,7 +505,7 @@ input[type=number].sheet-roc {
     font-variant: initial;
 }
 
-.sheet-popupdatt:hover + .sheet-tooltip {
+.popupdatt:hover + .tooltip {
     width: auto;
     display: inline;
     position: absolute;
@@ -515,7 +515,7 @@ input[type=number].sheet-roc {
     line-height: 1.5em;
 }
 
-.sheet-popupdatt + .sheet-tooltip {
+.popupdatt + .tooltip {
     border-radius: 1px;
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
@@ -525,7 +525,7 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-popup-def {
+.popup-def {
     width: 30px ;
     text-align: center ;
     padding: 2px ;
@@ -534,7 +534,7 @@ input[type=number].sheet-roc {
     font-size: 0.9em ;
 }
 
-.sheet-popup-def + .sheet-tooltip {
+.popup-def + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -545,7 +545,7 @@ input[type=number].sheet-roc {
     font-variant: initial;
 }
 
-.sheet-popup-def:hover + .sheet-tooltip {
+.popup-def:hover + .tooltip {
     width: auto;
     display: inline;
     position: absolute;
@@ -555,7 +555,7 @@ input[type=number].sheet-roc {
     line-height: 1.5em;
 }
 
-.sheet-popup-def + .sheet-tooltip {
+.popup-def + .tooltip {
     border-radius: 1px;
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
@@ -565,7 +565,7 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-popup-semblance {
+.popup-semblance {
     width: 25px ;
     text-align: center ;
     padding: 0px ;
@@ -574,7 +574,7 @@ input[type=number].sheet-roc {
     font-size: 1.1em ;
 }
 
-.sheet-popup-semblance + .sheet-tooltip {
+.popup-semblance + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -587,7 +587,7 @@ input[type=number].sheet-roc {
     right: 7px;
 }
 
-.sheet-popup-semblance:hover + .sheet-tooltip {
+.popup-semblance:hover + .tooltip {
     width: auto;
     display: inline;
     position: absolute;
@@ -597,7 +597,7 @@ input[type=number].sheet-roc {
     line-height: 1.5em;
 }
 
-.sheet-popup-semblance + .sheet-tooltip {
+.popup-semblance + .tooltip {
     border-radius: 1px;
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
@@ -607,7 +607,7 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-popup-skill {
+.popup-skill {
     width: 30px ;
     text-align: center ;
     padding: 5px 2px 5px 2px;
@@ -616,7 +616,7 @@ input[type=number].sheet-roc {
     font-size: 0.85em;
     display: inline;
 }
-.sheet-popup-skill-stat {
+.popup-skill-stat {
     width: 80px ;
     text-align: center ;
     padding: 5px 2px 5px 2px;
@@ -626,7 +626,7 @@ input[type=number].sheet-roc {
     display: inline;
 }
 
-.sheet-popup-skill + .sheet-tooltip {
+.popup-skill + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -637,7 +637,7 @@ input[type=number].sheet-roc {
     font-variant: initial;
 }
 
-.sheet-popup-skill:hover + .sheet-tooltip {
+.popup-skill:hover + .tooltip {
     width: auto;
     display: inline;
     position: absolute;
@@ -647,7 +647,7 @@ input[type=number].sheet-roc {
     line-height: 1.5em;
 }
 
-.sheet-popup-skill + .sheet-tooltip {
+.popup-skill + .tooltip {
     border-radius: 1px;
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
@@ -657,7 +657,7 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-defense + .sheet-tooltip {
+.defense + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -667,7 +667,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-defense:hover + .sheet-tooltip {
+.defense:hover + .tooltip {
     width: auto;
     display: inline-block;
     position: absolute;
@@ -680,7 +680,7 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-col-wv3 + .sheet-tooltip {
+.col-wv3 + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -690,7 +690,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-col-wv3:hover + .sheet-tooltip {
+.col-wv3:hover + .tooltip {
     width: auto;
     display: inline-block;
     position: absolute;
@@ -703,7 +703,7 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-col-wMv + .sheet-tooltip {
+.col-wMv + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -713,7 +713,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-col-wMv:hover + .sheet-tooltip {
+.col-wMv:hover + .tooltip {
     width: auto;
     display: inline-block;
     position: absolute;
@@ -726,7 +726,7 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-col-wMvD + .sheet-tooltip {
+.col-wMvD + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -736,7 +736,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-col-wMvD:hover + .sheet-tooltip {
+.col-wMvD:hover + .tooltip {
     width: auto;
     display: inline-block;
     position: absolute;
@@ -749,7 +749,7 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-col-wRv + .sheet-tooltip {
+.col-wRv + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -759,7 +759,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-col-wRv:hover + .sheet-tooltip {
+.col-wRv:hover + .tooltip {
     width: auto;
     display: inline-block;
     position: absolute;
@@ -772,7 +772,7 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-col-wRvA + .sheet-tooltip {
+.col-wRvA + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -782,7 +782,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-col-wRvA:hover + .sheet-tooltip {
+.col-wRvA:hover + .tooltip {
     width: auto;
     display: inline-block;
     position: absolute;
@@ -795,7 +795,7 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-col-wRvD + .sheet-tooltip {
+.col-wRvD + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -805,7 +805,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-col-wRvD:hover + .sheet-tooltip {
+.col-wRvD:hover + .tooltip {
     width: auto;
     display: inline-block;
     position: absolute;
@@ -818,7 +818,7 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-col- + .sheet-tooltip {
+.col- + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -828,7 +828,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-col-:hover + .sheet-tooltip {
+.col-:hover + .tooltip {
     width: auto;
     display: inline-block;
     position: absolute;
@@ -841,7 +841,7 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-col-ma + .sheet-tooltip {
+.col-ma + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -851,7 +851,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-col-ma:hover + .sheet-tooltip {
+.col-ma:hover + .tooltip {
     width: auto;
     display: inline-block;
     position: absolute;
@@ -864,7 +864,7 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-col1-ba + .sheet-tooltip {
+.col1-ba + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -874,7 +874,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-col1-ba:hover + .sheet-tooltip {
+.col1-ba:hover + .tooltip {
     width: auto;
     display: inline-block;
     position: absolute;
@@ -886,7 +886,7 @@ input[type=number].sheet-roc {
     line-height: 1.5em;
 }
 
-.sheet-col2-ba + .sheet-tooltip {
+.col2-ba + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -896,7 +896,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-col2-ba:hover + .sheet-tooltip {
+.col2-ba:hover + .tooltip {
     width: auto;
     display: inline-block;
     position: absolute;
@@ -908,7 +908,7 @@ input[type=number].sheet-roc {
     line-height: 1.5em;
 }
 
-.sheet-col3-ba + .sheet-tooltip {
+.col3-ba + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -918,7 +918,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-col3-ba:hover + .sheet-tooltip {
+.col3-ba:hover + .tooltip {
     width: auto;
     display: inline-block;
     position: absolute;
@@ -931,7 +931,7 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-col-af + .sheet-tooltip {
+.col-af + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -941,7 +941,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-col-af:hover + .sheet-tooltip {
+.col-af:hover + .tooltip {
     width: auto;
     display: inline-block;
     position: absolute;
@@ -953,7 +953,7 @@ input[type=number].sheet-roc {
     line-height: 1.5em;
 }
 
-.sheet-col-afb + .sheet-tooltip {
+.col-afb + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -963,7 +963,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-col-afb:hover + .sheet-tooltip {
+.col-afb:hover + .tooltip {
     width: auto;
     display: inline-block;
     position: absolute;
@@ -976,7 +976,7 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-semblance + .sheet-tooltip {
+.semblance + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -986,7 +986,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-semblance:hover + .sheet-tooltip {
+.semblance:hover + .tooltip {
     width: auto;
     display: inline-block;
     position: absolute;
@@ -1000,7 +1000,7 @@ input[type=number].sheet-roc {
     font-weight: none;
     font-size: 1em;
 }
-.sheet-col-wv + .sheet-tooltip {
+.col-wv + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -1010,7 +1010,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-col-wv:hover + .sheet-tooltip {
+.col-wv:hover + .tooltip {
     z-index: 10;
     width: auto;
     display: inline-block;
@@ -1027,11 +1027,11 @@ input[type=number].sheet-roc {
 }
 
 
-.sheet-dust {
+.dust {
     font-family: monospace, sans-serif;
     font-size: 1.1em;
 }
-.sheet-dust + .sheet-tooltip {
+.dust + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -1041,7 +1041,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-dust:hover + .sheet-tooltip {
+.dust:hover + .tooltip {
     width: auto;
     z-index: 5;
     display: inline-block;
@@ -1056,7 +1056,7 @@ input[type=number].sheet-roc {
     font-weight: none;
     font-size: 1em;
 }
-.sheet-phial + .sheet-tooltip {
+.phial + .tooltip {
     z-index: 10;
     display: none;
     padding: 4px;
@@ -1066,7 +1066,7 @@ input[type=number].sheet-roc {
     text-transform: initial;
     font-variant: initial;
 }
-.sheet-phial:hover + .sheet-tooltip {
+.phial:hover + .tooltip {
     z-index: 10;
     width: auto;
     display: inline-block;
@@ -1084,7 +1084,7 @@ input[type=number].sheet-roc {
 
 /*======================================================arrow===*/
 /* hide original checkboxk */
-input[type="checkbox"].sheet-arrow
+input[type="checkbox"].arrow
 {
     opacity: 0;
     width: 16px;
@@ -1093,7 +1093,7 @@ input[type="checkbox"].sheet-arrow
     z-index: 1;
 }
 /* Fake checkbox */
-input[type="checkbox"].sheet-arrow + span::before
+input[type="checkbox"].arrow + span::before
 {
     margin-left: -18px;
     margin-right: 5px;
@@ -1108,22 +1108,22 @@ input[type="checkbox"].sheet-arrow + span::before
     height: 14px;
     font-size: 11px;
 }
-input[type="checkbox"].sheet-arrow:checked + span::before
+input[type="checkbox"].arrow:checked + span::before
 {
     content: "►";
 }
 
-input.sheet-arrow::before
+input.arrow::before
 {
     float: left;
 }
 
-input.sheet-arrow ~ div.sheet-additionnal
+input.arrow ~ div.additionnal
 {
     display: none;
 }
 
-input.sheet-arrow:checked ~ div.sheet-additionnal
+input.arrow:checked ~ div.additionnal
 {
     display: block;
 }
@@ -1132,7 +1132,7 @@ input.sheet-arrow:checked ~ div.sheet-additionnal
 
 
 /* hide original checkboxk */
-input[type="checkbox"].sheet-arrow2
+input[type="checkbox"].arrow2
 {
     opacity: 0;
     width: 16px;
@@ -1141,7 +1141,7 @@ input[type="checkbox"].sheet-arrow2
     z-index: 1;
 }
 /* Fake checkbox */
-input[type="checkbox"].sheet-arrow2 + span::before
+input[type="checkbox"].arrow2 + span::before
 {
     margin-left: -18px;
     margin-right: 5px;
@@ -1156,22 +1156,22 @@ input[type="checkbox"].sheet-arrow2 + span::before
     height: 14px;
     font-size: 11px;
 }
-input[type="checkbox"].sheet-arrow2:checked + span::before
+input[type="checkbox"].arrow2:checked + span::before
 {
     content: "►";
 }
 
-input.sheet-arrow2::before
+input.arrow2::before
 {
     float: left;
 }
 
-input.sheet-arrow2 ~ div.sheet-unarmed
+input.arrow2 ~ div.unarmed
 {
     display: none;
 }
 
-input.sheet-arrow2:checked ~ div.sheet-unarmed
+input.arrow2:checked ~ div.unarmed
 {
     display: block;
 }
@@ -1180,7 +1180,7 @@ input.sheet-arrow2:checked ~ div.sheet-unarmed
 
 
 /* hide original checkboxk */
-input[type="checkbox"].sheet-arrow3
+input[type="checkbox"].arrow3
 {
     opacity: 0;
     width: 16px;
@@ -1189,7 +1189,7 @@ input[type="checkbox"].sheet-arrow3
     z-index: 1;
 }
 /* Fake checkbox */
-input[type="checkbox"].sheet-arrow3 + span::before
+input[type="checkbox"].arrow3 + span::before
 {
     margin-left: -18px;
     margin-right: 5px;
@@ -1204,29 +1204,29 @@ input[type="checkbox"].sheet-arrow3 + span::before
     height: 14px;
     font-size: 11px;
 }
-input[type="checkbox"].sheet-arrow3:checked + span::before
+input[type="checkbox"].arrow3:checked + span::before
 {
     content: "►";
 }
 
-input.sheet-arrow3::before
+input.arrow3::before
 {
     float: left;
 }
 
-input.sheet-arrow3 ~ div.sheet-alternate
+input.arrow3 ~ div.alternate
 {
     display: none;
 }
 
-input.sheet-arrow3:checked ~ div.sheet-alternate
+input.arrow3:checked ~ div.alternate
 {
     display: block;
 }
 
 
 /* hide original checkboxk */
-input[type="checkbox"].sheet-arrowmod
+input[type="checkbox"].arrowmod
 {
     opacity: 0;
     width: 16px;
@@ -1235,7 +1235,7 @@ input[type="checkbox"].sheet-arrowmod
     z-index: 1;
 }
 /* Fake checkbox */
-input[type="checkbox"].sheet-arrowmod + span::before
+input[type="checkbox"].arrowmod + span::before
 {
     margin-left: -15px;
     margin-right: 5px;
@@ -1250,47 +1250,47 @@ input[type="checkbox"].sheet-arrowmod + span::before
     height: 14px;
     font-size: 11px;
 }
-input[type="checkbox"].sheet-arrowmod:checked + span::before
+input[type="checkbox"].arrowmod:checked + span::before
 {
     content: "►";
 }
 
-input.sheet-arrowmod::before
+input.arrowmod::before
 {
     float: left;
 }
 
-input.sheet-arrowmod ~ div.sheet-moddescfield
+input.arrowmod ~ div.moddescfield
 {
     display: none;
 }
 
-input.sheet-arrowmod:checked ~ div.sheet-moddescfield
+input.arrowmod:checked ~ div.moddescfield
 {
     display: block;
 }
-input.sheet-arrowmod:checked ~ input.sheet-modnamefield
+input.arrowmod:checked ~ input.modnamefield
 {
     width: 85%;
 }
 
-input.sheet-arrowmod ~ input.sheet-modnamefield
+input.arrowmod ~ input.modnamefield
 {
     width: 42%;
 }
-input.sheet-arrowmod:checked ~ input.sheet-modrapiddesc
+input.arrowmod:checked ~ input.modrapiddesc
 {
     display: none;
 }
 
-input.sheet-arrowmod ~ input.sheet-modrapiddesc
+input.arrowmod ~ input.modrapiddesc
 {
     display: inline;
 }
 
 
 /* hide original checkboxk */
-input[type="checkbox"].sheet-arrowmod
+input[type="checkbox"].arrowmod
 {
     opacity: 0;
     width: 16px;
@@ -1299,7 +1299,7 @@ input[type="checkbox"].sheet-arrowmod
     z-index: 1;
 }
 /* Fake checkbox */
-input[type="checkbox"].sheet-arrowmod + span::before
+input[type="checkbox"].arrowmod + span::before
 {
     margin-left: -15px;
     margin-right: 5px;
@@ -1314,31 +1314,31 @@ input[type="checkbox"].sheet-arrowmod + span::before
     height: 14px;
     font-size: 11px;
 }
-input[type="checkbox"].sheet-arrowmod:checked + span::before
+input[type="checkbox"].arrowmod:checked + span::before
 {
     content: "►";
 }
 
-input.sheet-arrowmod::before
+input.arrowmod::before
 {
     float: left;
 }
 
-input.sheet-arrowmod ~ div.sheet-phialfield
+input.arrowmod ~ div.phialfield
 {
     display: none;
 }
 
-input.sheet-arrowmod:checked ~ div.sheet-phialfield
+input.arrowmod:checked ~ div.phialfield
 {
     display: block;
 }
-input.sheet-arrowmod ~ div.sheet-phialquick
+input.arrowmod ~ div.phialquick
 {
     display: block;
 }
 
-input.sheet-arrowmod:checked ~ div.sheet-phialquick
+input.arrowmod:checked ~ div.phialquick
 {
     display: none;
 }
@@ -1346,19 +1346,19 @@ input.sheet-arrowmod:checked ~ div.sheet-phialquick
 
 /*----------------skilllist--------------------------*/
 
-input.sheet-arrowmod ~ div.sheet-skilllist
+input.arrowmod ~ div.skilllist
 {
     display: none;
 }
 
-input.sheet-arrowmod:checked ~ div.sheet-skilllist
+input.arrowmod:checked ~ div.skilllist
 {
     display: block;
 }
 
 
 /* hide original checkboxk */
-input[type="checkbox"].sheet-arrow4
+input[type="checkbox"].arrow4
 {
     opacity: 0;
     width: 20px;
@@ -1367,7 +1367,7 @@ input[type="checkbox"].sheet-arrow4
     z-index: 1;
 }
 /* Fake checkbox */
-input[type="checkbox"].sheet-arrow4 + span::before
+input[type="checkbox"].arrow4 + span::before
 {
     margin-left: -18px;
     margin-right: 5px;
@@ -1382,22 +1382,22 @@ input[type="checkbox"].sheet-arrow4 + span::before
     height: 9px;
     font-size: 7px;
 }
-input[type="checkbox"].sheet-arrow4:checked + span::before
+input[type="checkbox"].arrow4:checked + span::before
 {
     content: "►";
 }
 
-input.sheet-arrow4::before
+input.arrow4::before
 {
     float: left;
 }
 
-input.sheet-arrow4 ~ div.sheet-version
+input.arrow4 ~ div.version
 {
     display: none;
 }
 
-input.sheet-arrow4:checked ~ div.sheet-version
+input.arrow4:checked ~ div.version
 {
     display: block;
 }
