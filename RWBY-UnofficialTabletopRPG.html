@@ -590,8 +590,11 @@
                                 by spending 1 additional Capacity.
                             </span>
                     </div>
+                    <div class='sheet-col' style="width: 25px; height: 90%;">
+                        <input type="number" style=" background: #FFF; width: 30px; border-radius: 2px; height: 100%;" min="0" name="attr_capboost" value="0">
+                    </div>
                     <div class='sheet-col' style="width: 25px;">
-                        <button type="roll" value="/me attempts to defend with Dust @{ad-disad-query}+@{RoC}d10cs11cf0)+@{discipline}[dis]+@{perception}[Per]+@{dusmod}+@{modquery}]] for 1 Capacity" name="roll_dust-defense" />
+                        <button type="roll" value="/me attempts to defend with Dust @{ad-disad-query}+@{RoC}d10cs11cf0)+@{discipline}[dis]+@{perception}[Per]+@{dusmod}+@{modquery}+@{capboost}]] for 1 Capacity" name="roll_dust-defense" />
                     </div>
                 </div>
             </div>
@@ -869,31 +872,95 @@
                     </fieldset>
                 </div>
             </div>
-            <div class="sheet-col" style="margin: 0px 0px 1px 1px; border: 1px solid darkgrey; width: 478px; overflow: auto; text-align: left; background-color: rgb(235, 235, 235);"><legend><strong>Modifications</strong></legend>
-                <fieldset class="repeating_mods">
-                    <div class="4colrow1" style="margin: 2px; background-color: rgb(190, 190, 190); padding: 1px 1px 1px 0px; border-bottom: 1px solid black; height: auto;">
+            <div class="sheet-col" style="margin: 0px 0px 1px 1px; border: 1px solid darkgrey; width: 478px; overflow: auto; text-align: left; background-color: rgb(235, 235, 235);">
+                <input type="checkbox" name="attr_modifsexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" /><span></span>
+                <legend><strong>Modifications</strong></legend>
+                <div class="sheet-skilllist" style="height: fit-content;">
+                    <fieldset class="repeating_mods">
+                        <div class="sheet-4colrow1" style="margin: 2px; background-color: rgb(190, 190, 190); padding: 1px 1px 1px 0px; border-bottom: 1px solid black; height: auto;">
 
-                        <input type="checkbox" name="attr_moddescexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" checked="true" /><span></span>
-                        <div style="font-family: monospace, sans-serif; font-weight: bold; font-size: 1.1em; text-align: right; display: inline;">Name</div>
-                        <input class="modnamefield" style="display: inline;" type="text"  name="attr_modname"/>
-                        <input class="modrapiddesc" type="text" style="width: 42%; background-color: rgb(242, 242, 242); color: gray;" placeholder="Quick description" name="attr_rapiddesc"/>
+                            <input type="checkbox" name="attr_moddescexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" checked="true" /><span></span>
+                            <div style="font-family: monospace, sans-serif; font-weight: bold; font-size: 1.1em; text-align: right; display: inline;">Name</div>
+                            <input class="sheet-modnamefield" style="display: inline;" type="text"  name="attr_modname"/>
+                            <input class="sheet-modrapiddesc" type="text" style="width: 42%; background-color: rgb(242, 242, 242); color: gray;" placeholder="Quick description" name="attr_rapiddesc"/>
 
-                        <div class="moddescfield" style=" margin: 1px 0px 0px 0px; background-color: rgb(245,245,245); padding: 5px 5px -2px 5px;">
-                            <table style="width:100%; height: 95px;">
-                                <tr>
-                                    <td style="width:50%; padding: 0px; font-family: monospace, sans-serif; font-weight: bold; font-size: 0.9em;">
-                                        Effect:<br>
-                                        <textarea style=" background: #FFF; width:94%; height: 63px; border-radius: 2px; color: gray" name="attr_modeffect" /></textarea>
-                                    </td>
-                                    <td style="width:50%; padding: 0px; font-family: monospace, sans-serif; font-weight: bold; font-size: 0.9em;">
-                                        Description:<br>
-                                        <textarea style=" background: #FFF; width:95%; height: 63px; border-radius: 2px; color: gray;" name="attr_moddesc" /></textarea>
-                                    </td>
-                                </tr>
-                            </table>
+                            <div class="sheet-moddescfield" style=" margin: 1px 0px 0px 0px; background-color: rgb(245,245,245); padding: 5px 5px -2px 5px;">
+                                <table style="width:100%; height: 95px;">
+                                    <tr>
+                                        <td style="width:50%; padding: 0px; font-family: monospace, sans-serif; font-weight: bold; font-size: 0.9em;">
+                                            Effect:<br>
+                                            <textarea style=" background: #FFF; width:94%; height: 63px; border-radius: 2px; color: gray; resize: vertical;" name="attr_modeffect" /></textarea>
+                                        </td>
+                                        <td style="width:50%; padding: 0px; font-family: monospace, sans-serif; font-weight: bold; font-size: 0.9em;">
+                                            Description:<br>
+                                            <textarea style=" background: #FFF; width:95%; height: 63px; border-radius: 2px; color: gray; resize: vertical;" name="attr_moddesc" /></textarea>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
-                    </div>
-                </fieldset>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="sheet-col" style="margin: 0px 0px 1px 1px; border: 1px solid darkgrey; width: 478px; overflow: auto; text-align: left; background-color: rgb(235, 235, 235);">
+                <input type="checkbox" name="attr_invexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" /><span></span>
+                <legend><strong>Inventaire</strong></legend>
+                <div class="sheet-skilllist" style="height: fit-content;">
+                    <fieldset class="repeating_inv">
+                        <div class="sheet-4colrow1" style="margin: 2px; background-color: rgb(190, 190, 190); padding: 1px 1px 1px 0px; border-bottom: 1px solid black; height: auto;">
+
+                            <input type="checkbox" name="attr_invdescexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" checked="true" /><span></span>
+                            <div style="font-family: monospace, sans-serif; font-weight: bold; font-size: 1.1em; text-align: right; display: inline;">Name</div>
+                            <input class="sheet-modnamefield" style="display: inline;" type="text"  name="attr_invname"/>
+                            <input class="sheet-modrapiddesc" type="text" style="width: 42%; background-color: rgb(242, 242, 242); color: gray;" placeholder="Quick description" name="attr_invrapiddesc"/>
+
+                            <div class="sheet-moddescfield" style=" margin: 1px 0px 0px 0px; background-color: rgb(245,245,245); padding: 5px 5px -2px 5px;">
+                                <table style="width:100%; height: 95px;">
+                                    <tr>
+                                        <td style="width:50%; padding: 0px; font-family: monospace, sans-serif; font-weight: bold; font-size: 0.9em;">
+                                            Effect:<br>
+                                            <textarea style=" background: #FFF; width:94%; height: 63px; border-radius: 2px; color: gray; resize: vertical;" name="attr_inveffect" /></textarea>
+                                        </td>
+                                        <td style="width:50%; padding: 0px; font-family: monospace, sans-serif; font-weight: bold; font-size: 0.9em;">
+                                            Description:<br>
+                                            <textarea style=" background: #FFF; width:95%; height: 63px; border-radius: 2px; color: gray; resize: vertical;" name="attr_invdesc" /></textarea>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="sheet-col" style="margin: 0px 0px 1px 1px; border: 1px solid darkgrey; width: 478px; overflow: auto; text-align: left; background-color: rgb(235, 235, 235);">
+                <input type="checkbox" name="attr_techauraexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" /><span></span>
+                <legend><strong>Techniques d'Aura</strong></legend>
+                <div class="sheet-skilllist" style="height: fit-content;">
+                    <fieldset class="repeating_techaura">
+                        <div class="sheet-4colrow1" style="margin: 2px; background-color: rgb(190, 190, 190); padding: 1px 1px 1px 0px; border-bottom: 1px solid black; height: auto;">
+
+                            <input type="checkbox" name="attr_techauradescexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" checked="true" /><span></span>
+                            <div style="font-family: monospace, sans-serif; font-weight: bold; font-size: 1.1em; text-align: right; display: inline;">Name</div>
+                            <input class="sheet-modnamefield" style="display: inline;" type="text"  name="attr_techauraname"/>
+                            <input class="sheet-modrapiddesc" type="text" style="width: 42%; background-color: rgb(242, 242, 242); color: gray;" placeholder="Quick description" name="attr_techaurarapiddesc"/>
+
+                            <div class="sheet-moddescfield" style=" margin: 1px 0px 0px 0px; background-color: rgb(245,245,245); padding: 5px 5px -2px 5px;">
+                                <table style="width:100%; height: 95px;">
+                                    <tr>
+                                        <td style="width:50%; padding: 0px; font-family: monospace, sans-serif; font-weight: bold; font-size: 0.9em;">
+                                            Effect:<br>
+                                            <textarea style=" background: #FFF; width:94%; height: 63px; border-radius: 2px; color: gray; resize: vertical;" name="attr_techauraeffect" /></textarea>
+                                        </td>
+                                        <td style="width:50%; padding: 0px; font-family: monospace, sans-serif; font-weight: bold; font-size: 0.9em;">
+                                            Description:<br>
+                                            <textarea style=" background: #FFF; width:95%; height: 63px; border-radius: 2px; color: gray; resize: vertical;" name="attr_techauradesc" /></textarea>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
             </div>
         </td>
         <td style="width: 358px;" valign="top" align="left">
@@ -1244,7 +1311,7 @@
                 </div>
             </div>
 
-            <div class="sheet-col" style="margin: 3px 0px 0px 3px; border: 1px solid darkgrey; height: 160px; width: 357px; overflow: hidden; text-align: left; background-color: rgb(235, 235, 235);"><legend><strong class="sheet-semblance">Semblance</strong></legend>
+            <div class="sheet-col" style="margin: 3px 0px 0px 3px; border: 1px solid darkgrey; height: fit-content; width: 357px; overflow: hidden; text-align: left; background-color: rgb(235, 235, 235);"><legend><strong class="sheet-semblance">Semblance</strong></legend>
                 <span class="sheet-tooltip">
 				        Semblance is the active manifestation of the
                         Character’s soul. Every Huntsman and Huntress
@@ -1280,10 +1347,10 @@
                             </span>
                     </div>
                 </div>
-                <div class='sheet-4colrowwdesc'>
-                    <div class='sheet-col-sem-desc'>
+                <div class='sheet-4colrowwdesc' style="height: fit-content;">
+                    <div class='sheet-col-sem-desc' style="height: fit-content;">
                         Description:<br>
-                        <textarea style=" background: #FFF; width: 343px; height: 72px; border-radius: 2px; color: gray" name="attr_semblance-desc" /></textarea>
+                        <textarea style=" background: #FFF; width: 343px; min-height: 72px; height: 72px; border-radius: 2px; color: gray; resize: vertical;" name="attr_semblance-desc" /></textarea>
                     </div>
                 </div>
             </div>
@@ -1347,25 +1414,27 @@
                     <div style="border-bottom: 1px solid black; width:100%; padding:-1px 1px 0px 0px;  background-color: rgb(190, 190, 190); margin: 0px 0px 2px 0px; heght: auto;">
 
                         <input type="checkbox" name="attr_phialexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" checked="true" /><span></span>
-                        <div "sheet-col-att" style="width: 50px; font-family: monospace, sans-serif; font-weight: bold; font-size: 1.1em; text-align: right; display: inline;">Color</div>
-                    <div "sheet-col-att" style="width:187px; display: inline;"><input  style="width: 187px;display:inline;" type="text" name="attr_phiname"/></div>
-            <select name="attr_phi" style="width: 54px;  display: inline; position: relative; top: 1px; margin-bottom: 2px; padding-left: -1px;">
-                <option value="++" >Attr</option>
-                <option value="@{strength}[STR]">STR</option>
-                <option value="@{agility}[AGI]">AGI</option>
-                <option value="@{endurance}[END]">END</option>
-                <option value="@{perception}[PER]">PER</option>
-                <option value="@{willpower}[WIL]">WIL</option>
-                <option value="@{discipline}[DIS]">DIS</option>
-            </select>
+                        <div "sheet-col-att" style="width:187px; display: inline;"><input  style="width: 187px;display:inline;" type="text" name="attr_phiname"/></div>
+                    <select name="attr_phi" style="width: 54px;  display: inline; position: relative; top: 1px; margin-bottom: 2px; padding-left: -1px;">
+                        <option value="++" >Attr</option>
+                        <option value="@{strength}[STR]">STR</option>
+                        <option value="@{agility}[AGI]">AGI</option>
+                        <option value="@{endurance}[END]">END</option>
+                        <option value="@{perception}[PER]">PER</option>
+                        <option value="@{willpower}[WIL]">WIL</option>
+                        <option value="@{discipline}[DIS]">DIS</option>
+                    </select>
+                    <div "sheet-col-att" style="display: inline;">
+                    <input  style="width: 30px;display:inline;" type="number" name="attr_phicapboost" min="0" value="0">
+            </div>
             <div  class="sheet-phialquickroll" style="display: inline; position:relative; top: 0px;">
-                <button type='roll' value="/me uses a @{phiname} Dust Phial @{ad-disad-query}+(@{RoC})d10cs11cf0[RoC])+@{discipline}[Dis]+@{phi}+@{dusphimod}+@{modquery}]] for 2 capacity" style="display: inline;" name="roll_phi"/>
+                <button type='roll' value="/me uses a @{phiname} Dust Phial @{ad-disad-query}+(@{RoC})d10cs11cf0[RoC])+@{discipline}[Dis]+@{phi}+@{phicapboost}+@{dusphimod}+@{modquery}]] for 2 capacity" style="display: inline;" name="roll_phi"/>
             </div>
 
             <div class="phialquick" style="display:none;">
             </div>
 
-            <div class="phialfield">
+            <div class="sheet-phialfield">
                 <div class="4colrow">
                     <table style="width:100%; position: relative; bottom: 0px;">
                         <tr>
