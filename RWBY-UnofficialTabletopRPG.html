@@ -11,14 +11,72 @@
     <div class='sheet-col' style="algin: left; display: inline;">
         <input type="text" style=" background: #FFF; width: 200px; border-radius: 2px; font-weight: bold; Font-family: monospace, sans-serif; font-size: 1.1em ;" name="attr_name"  />
     </div>
+
     <div class='sheet-col-cha' style=" display: inline; position: relative; top: 5px;">
         Level :
     </div>
     <div class='sheet-col' style="algin: left; display: inline;">
         <input type="text" style=" background: #FFF; width: 25px; border-radius: 2px; font-weight: bold; Font-family: monospace, sans-serif; font-size: 1.1em ;" name="attr_level"  />
     </div>
+
+    <div class='sheet-col' style="padding: 5px; padding-right: 0;">
+        <div class="sheet-popup-def" style="width: auto;">
+            T. Dice
+        </div>
+        <span class="sheet-tooltip">
+            Dé de Triomphe<br>
+        </span>
+    </div>
+    <div class='sheet-col' style="padding: 5px; padding-right: 0;">
+        <input type='checkbox' name='attr_triomphe' value='true' />
+    </div>
+
+    <div class='sheet-col' style="padding: 5px; padding-right: 0;">
+        <div class="sheet-popup-def" style="width: auto;">
+            Repos court
+        </div>
+        <span class="sheet-tooltip">
+            Repos Court<br>
+            Après un repos court, vous récupérez<br>
+            1dWIL d'aura et vous rechargez<br>
+            toute votre capacité.
+        </span>
+    </div>
+    <div class='sheet-col' style="width: 25px;">
+        <button type="roll" value="/me fait un repos court et récupère [[1d@{willpower}[Wil]]] d'aura" name="roll_repos_court" />
+    </div>
+
+    <div class='sheet-col' style="padding: 5px; padding-right: 0;">
+        <div class="sheet-popup-def" style="width: auto;">
+            Repos long
+        </div>
+        <span class="sheet-tooltip">
+            Repos Long<br>
+            Après un repos long, vous récupérez<br>
+            1 HP, toute votre aura, et vous rechargez<br>
+            toute votre capacité.
+        </span>
+    </div>
+    <div class='sheet-col' style="width: 25px;">
+        <button type="roll" value="/me fait un repos long" name="roll_repos_long" />
+    </div>
+
+    <div class='sheet-col' style="padding: 5px; padding-right: 0;">
+        <div class="sheet-popup-def" style="width: auto;">
+            Reload cap
+        </div>
+        <span class="sheet-tooltip">
+            Recharger la capacité<br>
+            En tant qu'action mineur, vous pouvez<br>
+            recharger DIS+1 votre capacité
+        </span>
+    </div>
+    <div class='sheet-col' style="width: 25px;">
+        <button type="roll" value="/me recharge sa capacité" name="roll_reload_cap" />
+    </div>
+
     <div class='sheet-col' style="text-align: left;">
-        <img src="https://raw.githubusercontent.com/S0raga54/RWBY_RoC-Unofficial_Tabletop_RPG/main/rwby_logo.png" style="position: relative; left: 380px; bottom: 2px; height: 31px; width: auto;" alt="RWBY Unofficial Tabletop RPG" width="80%" height="80%">
+        <img src="https://raw.githubusercontent.com/S0raga54/RWBY_RoC-Unofficial_Tabletop_RPG/main/rwby_logo.png" style="position: relative; left: 5px; bottom: 2px; height: 31px; width: auto;" alt="RWBY Unofficial Tabletop RPG" width="80%" height="80%">
     </div>
 </div>
 <table style="width: 800; margin-top: 0px; margin-bottom: 0px;" border="0">
@@ -161,6 +219,7 @@
                     </div>
                     <div class='sheet-select'>
                         <div class="sheet-popup">
+                            <input type="number" style="display: none;" name="attr_auramax" value="@{perception}+@{aurmod}+10">
                             <input type="hidden" name="attr_aura_max" value="0" />
                             <input type="number" name="attr_auramaxdisplay" disabled="true" value="@{perception}+@{aurmod}+10" style="position: relative; left: 295px; bottom: 30px;background-color: transparent; border: transparent ; font-size: 1.1em; font-family: monospace, sans-serif; font-weight: bold;  width: 25px;"/>
                         </div>
