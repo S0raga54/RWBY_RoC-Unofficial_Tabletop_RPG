@@ -460,6 +460,7 @@
                     <div class='sheet-col' style="width: 25px;">
                         <button type="roll" value="/me attempts to Parry @{ad-disad-query}+@{RoC}d10cs11cf0)+@{strength}[Str]+@{perception}[Per]+@{parmod}+@{modquery}]]" name="roll_parry" />
                     </div>
+
                     <div class='sheet-col'>
                         <div class="sheet-popup-def">
                             Dodge
@@ -475,9 +476,13 @@
                                 that does not require a roll.
                             </span>
                     </div>
-                    <div class='sheet-col' style="width: 25px;">
-                        <button type="roll" value="/me attempts to Dodge @{ad-disad-query}+@{RoC}d10cs11cf0)+@{agility}[Agi]+@{perception}[Per]+@{dodmod}+@{modquery}]]" name="roll_dodge" />
+                    <div style="display: none;">
+                        <button type="roll" value="/me reload cap during the dodge" name="roll_reloaddodge"/>
                     </div>
+                    <div class='sheet-col' style="width: 25px;">
+                        <button type="roll" value="/me attempts to Dodge @{ad-disad-query}+@{RoC}d10cs11cf0)+@{agility}[Agi]+@{perception}[Per]+@{dodmod}+@{modquery}]] [Reload](~reloaddodge)" name="roll_dodge" />
+                    </div>
+
                     <div class='sheet-col'>
                         <div class="sheet-popup-def" style="width: 38px;">
                             Resist
