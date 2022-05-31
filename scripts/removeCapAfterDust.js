@@ -41,9 +41,10 @@ on('ready',()=>{
 
             // Get cap boost attribute
             var chaCapBoost = findObjs({ type: 'attribute', characterid: character.id, name: phialSameName+'_phicapboost' })[0];
+            var capBoost = parseInt(chaCapBoost.get('current'));
 
             // Set the new value
-            var chaCapValue = chaCap.get('current') - 2 - chaCapBoost.get('current');
+            var chaCapValue = chaCap.get('current') - 2 - capBoost;
             chaCap.set('current', chaCapValue);
 
             // Return cap boost to 0
@@ -62,7 +63,12 @@ on('ready',()=>{
         const textToCheck = "Dust Phial";
 
         if(msg.content.includes(textToCheck)){
-            removeCap(msg);
+            try {
+                removeCap(msg);
+            }
+            catch {
+                sendChat('System', 'Une erreur est survenue');
+            }
         }
     });
 });

@@ -854,36 +854,6 @@
                 </div>
             </div>
             <div class="sheet-col" style="margin: 0px 0px 1px 1px; border: 1px solid darkgrey; width: 478px; overflow: auto; text-align: left; background-color: rgb(235, 235, 235);">
-                <input type="checkbox" name="attr_invexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" /><span></span>
-                <legend><strong>Inventaire</strong></legend>
-                <div class="sheet-skilllist" style="height: fit-content;">
-                    <fieldset class="repeating_inv">
-                        <div class="sheet-4colrow1" style="margin: 2px; background-color: rgb(190, 190, 190); padding: 1px 1px 1px 0px; border-bottom: 1px solid black; height: auto;">
-
-                            <input type="checkbox" name="attr_invdescexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" checked="true" /><span></span>
-                            <div style="font-family: monospace, sans-serif; font-weight: bold; font-size: 1.1em; text-align: right; display: inline;">Name</div>
-                            <input class="sheet-modnamefield" style="display: inline;" type="text"  name="attr_invname"/>
-                            <input class="sheet-modrapiddesc" type="text" style="width: 42%; background-color: rgb(242, 242, 242); color: gray;" placeholder="Quick description" name="attr_invrapiddesc"/>
-
-                            <div class="sheet-moddescfield" style=" margin: 1px 0px 0px 0px; background-color: rgb(245,245,245); padding: 5px 5px -2px 5px;">
-                                <table style="width:100%; height: 95px;">
-                                    <tr>
-                                        <td style="width:50%; padding: 0px; font-family: monospace, sans-serif; font-weight: bold; font-size: 0.9em;">
-                                            Effect:<br>
-                                            <textarea style=" background: #FFF; width:94%; height: 63px; border-radius: 2px; color: gray; resize: vertical;" name="attr_inveffect" /></textarea>
-                                        </td>
-                                        <td style="width:50%; padding: 0px; font-family: monospace, sans-serif; font-weight: bold; font-size: 0.9em;">
-                                            Description:<br>
-                                            <textarea style=" background: #FFF; width:95%; height: 63px; border-radius: 2px; color: gray; resize: vertical;" name="attr_invdesc" /></textarea>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </fieldset>
-                </div>
-            </div>
-            <div class="sheet-col" style="margin: 0px 0px 1px 1px; border: 1px solid darkgrey; width: 478px; overflow: auto; text-align: left; background-color: rgb(235, 235, 235);">
                 <input type="checkbox" name="attr_techauraexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" /><span></span>
                 <legend><strong>Techniques d'Aura</strong></legend>
                 <div class="sheet-skilllist" style="height: fit-content;">
@@ -905,6 +875,66 @@
                                         <td style="width:50%; padding: 0px; font-family: monospace, sans-serif; font-weight: bold; font-size: 0.9em;">
                                             Description:<br>
                                             <textarea style=" background: #FFF; width:95%; height: 63px; border-radius: 2px; color: gray; resize: vertical;" name="attr_techauradesc" /></textarea>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="sheet-col" style="margin: 0px 0px 1px 1px; border: 1px solid darkgrey; width: 478px; overflow: auto; text-align: left; background-color: rgb(235, 235, 235);">
+                <input type="checkbox" name="attr_techarmeexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" /><span></span>
+                <legend><strong>Techniques d'Arme</strong></legend>
+                <div class="sheet-skilllist" style="height: fit-content;">
+                    <fieldset class="repeating_techarme">
+                        <div class="sheet-4colrow1" style="margin: 2px; background-color: rgb(190, 190, 190); padding: 1px 1px 1px 0px; border-bottom: 1px solid black; height: auto;">
+
+                            <input type="checkbox" name="attr_techarmedescexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" checked="true" /><span></span>
+                            <div style="font-family: monospace, sans-serif; font-weight: bold; font-size: 1.1em; text-align: right; display: inline;">Name</div>
+                            <input class="sheet-modnamefield" style="display: inline;" type="text"  name="attr_techarmename"/>
+                            <input class="sheet-modrapiddesc" type="text" style="width: 42%; background-color: rgb(242, 242, 242); color: gray;" placeholder="Quick description" name="attr_techarmerapiddesc"/>
+
+                            <div class="sheet-moddescfield" style=" margin: 1px 0px 0px 0px; background-color: rgb(245,245,245); padding: 5px 5px -2px 5px;">
+                                <table style="width:100%; height: 95px;">
+                                    <tr>
+                                        <td style="width:50%; padding: 0px; font-family: monospace, sans-serif; font-weight: bold; font-size: 0.9em;">
+                                            Effect:<br>
+                                            <textarea style=" background: #FFF; width:94%; height: 63px; border-radius: 2px; color: gray; resize: vertical;" name="attr_techarmeeffect" /></textarea>
+                                        </td>
+                                        <td style="width:50%; padding: 0px; font-family: monospace, sans-serif; font-weight: bold; font-size: 0.9em;">
+                                            Description:<br>
+                                            <textarea style=" background: #FFF; width:95%; height: 63px; border-radius: 2px; color: gray; resize: vertical;" name="attr_techarmedesc" /></textarea>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="sheet-col" style="margin: 0px 0px 1px 1px; border: 1px solid darkgrey; width: 478px; overflow: auto; text-align: left; background-color: rgb(235, 235, 235);">
+                <input type="checkbox" name="attr_invexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" /><span></span>
+                <legend><strong>Inventaire</strong></legend>
+                <div class="sheet-skilllist" style="height: fit-content;">
+                    <fieldset class="repeating_inv">
+                        <div class="sheet-4colrow1" style="margin: 2px; background-color: rgb(190, 190, 190); padding: 1px 1px 1px 0px; border-bottom: 1px solid black; height: auto;">
+
+                            <input type="checkbox" name="attr_invdescexpand" class="sheet-arrowmod" style="position: relative; top: 0px; left: 0px;" checked="true" /><span></span>
+                            <div style="font-family: monospace, sans-serif; font-weight: bold; font-size: 1.1em; text-align: right; display: inline;">Name</div>
+                            <input class="sheet-modnamefield" style="display: inline;" type="text"  name="attr_invname"/>
+                            <input class="sheet-modrapiddesc" type="text" style="width: 42%; background-color: rgb(242, 242, 242); color: gray;" placeholder="Quick description" name="attr_invrapiddesc"/>
+
+                            <div class="sheet-moddescfield" style=" margin: 1px 0px 0px 0px; background-color: rgb(245,245,245); padding: 5px 5px -2px 5px;">
+                                <table style="width:100%; height: 95px;">
+                                    <tr>
+                                        <td style="width:50%; padding: 0px; font-family: monospace, sans-serif; font-weight: bold; font-size: 0.9em;">
+                                            Effect:<br>
+                                            <textarea style=" background: #FFF; width:94%; height: 63px; border-radius: 2px; color: gray; resize: vertical;" name="attr_inveffect" /></textarea>
+                                        </td>
+                                        <td style="width:50%; padding: 0px; font-family: monospace, sans-serif; font-weight: bold; font-size: 0.9em;">
+                                            Description:<br>
+                                            <textarea style=" background: #FFF; width:95%; height: 63px; border-radius: 2px; color: gray; resize: vertical;" name="attr_invdesc" /></textarea>
                                         </td>
                                     </tr>
                                 </table>
@@ -1301,7 +1331,7 @@
                 <div class='sheet-4colrowwdesc' style="height: fit-content;">
                     <div class='sheet-col-sem-desc' style="height: fit-content;">
                         Description:<br>
-                        <textarea style=" background: #FFF; width: 343px; min-height: 72px; height: 72px; border-radius: 2px; color: gray; resize: vertical;" name="attr_semblance-desc" /></textarea>
+                        <textarea style=" background: #FFF; width: 343px; min-height: 150px; height: 150px; border-radius: 2px; color: gray; resize: vertical;" name="attr_semblance-desc" /></textarea>
                     </div>
                 </div>
             </div>

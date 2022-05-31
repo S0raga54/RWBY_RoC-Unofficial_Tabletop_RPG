@@ -14,11 +14,12 @@ on('ready',()=>{
             var cap = parseInt(chaCap.get('current'));
 
             // Get cap max
+            chaCap = findObjs({ type: 'attribute', characterid: character.id, name: 'capacity' })[0];
             var capMax = parseInt(chaCap.get('max'));
 
             // Get dis attribute
             var chaDis = findObjs({ type: 'attribute', characterid: character.id, name: 'discipline' })[0];
-            var dis = parseInt(chaDis.get('current'));
+            var dis = isNaN(parseInt(chaDis.get('current'))) ? 0 : parseInt(chaDis.get('current'));
 
             // Calcul new cap
             var calcul = dis + 1 + cap;
